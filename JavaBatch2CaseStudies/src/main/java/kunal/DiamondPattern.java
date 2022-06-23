@@ -12,14 +12,14 @@ public class DiamondPattern {
 		}
 	}
 
-	void printSpace(int rows, int i) { 									// printing space
+	void printSpace(int rows, int i) { 						// printing space
 		int j;
 		for (j = 1; j <= rows - i; j++) {
 			System.out.print("  ");
 		}
 	}
 
-	void printPattern(int i, char charFirst, char charSecond) { 		// printing pattern
+	void printPattern(int i, char charFirst, char charSecond) { 			// printing pattern
 		int k, l;
 
 		for (k = i; k >= 1; k--) {
